@@ -1,0 +1,115 @@
+﻿@model hastaneRandevuSistemi.Models.signUp.signUp
+<!--
+<form asp-controller="signUp" asp-action="Create">
+
+
+
+    <div class="form-group">
+        <label asp-for="patientName"> </label>
+        <input asp-for="patientName" />
+        <span asp-validation-for="patientName"></span>
+
+    </div>
+    <div class="form-group">
+        <label asp-for="patientSurname"> </label>
+        <input asp-for="patientSurname" />
+        <span asp-validation-for="patientSurname"></span>
+
+    </div>
+
+    <div class="form-group">
+        <label asp-for="patientBirthday"> </label>
+        <input asp-for="patientBirthday" />
+        <span asp-validation-for="patientBirthday"></span>
+
+    </div>
+
+    <div class="form-group">
+        <label asp-for="patientPhoneNo"> </label>
+        <input asp-for="patientPhoneNo" />
+        <span asp-validation-for="patientPhoneNo"></span>
+
+    </div>
+
+    <div class="form-group">
+        <label asp-for="patientEmail"> </label>
+        <input asp-for="patientEmail" />
+        <span asp-validation-for="patientEmail"></span>
+
+    </div>
+
+
+
+    <div class="form-group" typeof="password">
+        <label asp-for="patientParola"> </label>
+        <input asp-for="patientParola" />
+        <span asp-validation-for="patientParola"></span>
+
+    </div>
+
+    <div class="form-group" typeof="password">
+        <label asp-for="patientTeParola"> </label>
+        <input asp-for="patientTeParola" />
+        <span asp-validation-for="patientTeParola"></span>
+
+    </div>
+
+    <div class="form-group">
+        <label asp-for="patientCity"> </label>
+        <input asp-for="patientCity" />
+        <span asp-validation-for="patientCity"></span>
+
+    </div>
+
+
+    <div class="form-group">
+        <input type="submit" value="Create" asp-controller="login" asp-action="Index" />
+
+
+    </div>
+
+</form>
+-->
+<form>
+
+<div class="form-outline mb-4">
+       <label class="form-label" for="loginName">İsim</label>  
+    <input type="text" id="loginName" class="form-control" />
+       
+      </div>
+      <div class="form-outline mb-4">
+         <label class="form-label" for="loginName">Soyisim</label>
+          <input type="text" id="loginName" class="form-control" />
+       
+      </div>
+     
+      <div class="form-outline mb-4">
+        <label class="form-label" for="loginName">Doğum Tarihi</label>
+          <input type="datetime" id="loginName" class="form-control" />
+        
+      </div>
+       <div class="form-outline mb-4">
+        <label class="form-label" for="loginName">Telefon Numarası</label>
+           <input type="number" id="loginName" class="form-control" />
+       
+      </div>
+      <div class="form-outline mb-4">
+        <label class="form-label" for="loginName">Email</label>
+          <input type="email" id="loginName" class="form-control" />
+        
+      </div>
+       
+         <div class="form-outline mb-4">
+         <label class="form-label" for="loginPassword">Şifre</label>
+             <input type="password" id="loginPassword" class="form-control" />
+       
+      </div>
+
+     <div class="form-outline mb-4">
+        <label class="form-label" for="loginName">Yaşadığı Şehir</label>
+         <input type="text" id="loginName" class="form-control" />
+        
+      </div>
+    
+      <button type="button" onclick= "window.location.href='/login'" class="btn btn-primary btn-block mb-4">Kayıt Ol</button>
+  </form> 
